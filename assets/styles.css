@@ -42,6 +42,7 @@ p {
     display: flex;
     height: 60px;
     width: 100%;
+
     background: url(/assets/img/background.png) no-repeat center center/cover;
     background-size: cover;
     background-position: 100%;
@@ -51,12 +52,15 @@ p {
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: center;
 }
 
 .navbar ul li {
     margin: 0 1rem;
     padding: 1rem;
+}
+
+.navbar ul li img {
+    cursor: pointer;
 }
 
 .navbar ul li a {
@@ -85,7 +89,7 @@ section#home {
     background: linear-gradient(to bottom, #ff8c5f, #ff8961, #fe8664, #fe8366, #fd8069, #fc7d6b, #fc7b6e, #fb7870, #fa7673, #f87375, #f77178, #f56f7b) no-repeat center center/cover;
 }
 
-section#contacts {
+section#socials {
     background: linear-gradient(to bottom, #fd8768, #fd856a, #fc846b, #fc826d, #fb816f, #fb8070, #fa7f71, #fa7e72, #fa7e72, #f97d73, #f97d73, #f87c73) no-repeat center center/cover;
 }
 
@@ -97,9 +101,35 @@ section#projects {
     margin-left: 0px;
 }
 
+#icon {
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    width: 54px;
+    height: 54px;
+
+    border-radius: 13px;
+}
+
 #github {
     height: 75px;
     margin-left: 0px;
+}
+
+#youtube {
+    margin-bottom: -5px;
+    height: 80px;
+    filter: invert();
+}
+
+#miscutils {
+    margin-left: -30px;
+    width: 512px;
+    height: 137px;
+}
+
+#namemc {
+    height: 64px;
 }
 
 #discord {
@@ -122,13 +152,13 @@ section#projects {
     filter: invert();
 }
 
-.contact-icons ul {
+.social-icons ul {
     list-style-type: none;
 }
 
-.contact-icons img {
+.social-icons img {
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 30px;
 }
 
