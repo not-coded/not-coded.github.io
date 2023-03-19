@@ -97,10 +97,6 @@ section#projects {
     background: linear-gradient(to bottom, #ff9b83, #fe957f, #fd907c, #fb8a79, #fa8476, #fa8374, #fa8172, #fa8070, #fc836d, #fd866b, #fe8a68, #ff8d66) no-repeat center center/cover;
 }
 
-#deathcommands {
-    margin-left: 0px;
-}
-
 #icon {
     position: absolute;
     bottom: 3px;
@@ -113,7 +109,6 @@ section#projects {
 
 #github {
     height: 75px;
-    margin-left: 0px;
 }
 
 #youtube {
