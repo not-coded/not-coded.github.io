@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to bottom, #ff9b83, #fe957f, #fd907c, #fb8a79, #fa8476, #fa8374, #fa8172, #fa8070, #fc836d, #fd866b, #fe8a68, #ff8d66) no-repeat center center/cover;
+}
+
+#miscutils {
+    margin-left: -30px;
+    width: 512px;
+    height: 137px;
+}
+
+.projects-list img {
+    height: 140px;
+    width: 140px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+}
