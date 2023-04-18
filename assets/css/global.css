@@ -34,15 +34,24 @@ p {
     height: 60px;
     width: 100%;
 
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+
+    text-decoration: none;
+
+    /*
     background: url(/assets/img/background.png) no-repeat center center/cover;
     background-size: cover;
     background-position: 100%;
+    */
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
     width: 100%;
+    justify-content: center;
 }
 
 .navbar ul li {
@@ -93,6 +102,8 @@ p {
     color: white;
     text-shadow: 3px 3px #000;
     font-size: 18.5px;
+
+    vertical-align: middle;
 }
 
 .navbar ul li a:hover {
