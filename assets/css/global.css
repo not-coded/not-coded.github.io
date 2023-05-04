@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@ body {
     line-height: 1.6;
     height: 100vh;
 
-    font-family: verdana;
+    font-family: 'Noto Sans';
     overflow: hidden;
 }
 
@@ -20,6 +21,8 @@ h1 {
     color: white;
     text-shadow: 4px 4px #000;
     font-size: 50px;
+
+    font-family: 'Readex Pro';
 }
 
 p {
@@ -28,6 +31,8 @@ p {
     font-size: 25px;
 }
 
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -35,8 +40,11 @@ p {
     display: flex;
     height: 60px;
     width: 100%;
-
+    
     background-color: rgba(0, 0, 0, 0.5);
+
+    font-family: verdana;
+    
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 
@@ -102,7 +110,7 @@ p {
     text-decoration: none;
 
     color: white;
-    text-shadow: 3px 3px #000;
+    text-shadow: 2px 2px #000;
     font-size: 18.5px;
 
     vertical-align: middle;
@@ -132,7 +140,7 @@ section {
 
     border: 1px solid #2f2f2f;
     border-radius: 15px;
-    padding: 0.35em 1em;
+    padding: 0.30em 1em;
     line-height: 1.5em;
 
     font-size: 22px;
