@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -122,19 +124,25 @@ section {
 
 .button {
     border: none;
-    color: white;
-    text-shadow: 3px 3px #000;
+    color: #cfcfcf;
 
-    border-radius: 20px;
-    padding: 10px 30px;
+    font-family: 'Readex Pro';
+
+    text-shadow: 2px 2px #000;
+
+    border: 1px solid #2f2f2f;
+    border-radius: 15px;
+    padding: 0.5em 1em;
+    line-height: 1.5em;
+
+    font-size: 22px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 26px;
-    margin: 4px 2px;
     cursor: pointer;
 
-    background: #212121;
+    background: #3a3939;
 }
 
 .button:hover {
