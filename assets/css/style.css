@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0;
+    border-color: #cfcfcf;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+
+
+div {
+    margin-top: 0.9rem;
+}
+
+#icon {
+    width: 115.2px;
+    height: 115.2px;
+
+    border-radius: 13px;
+    cursor: wait;
+}
+
+#github {
+    margin-left: 10px;
+    height: 67.5px;
+}
+
+#youtube {
+    margin-bottom: -6px;
+    height: 72px;
+    filter: invert();
+}
+
+#namemc {
+    height: 57.6px;
+}
+
+#discord {
+    margin-bottom: -12px;
+    height: 81px;
+}
+
+#twitter {
+    width: 70px;
+    height: 61.5px;
+}
+
+#mail {
+    height: 67.5px;
+    filter: invert();
+}
+
+#speedrun {
+    height: 58.5px;
+    filter: invert();
+}
+
+.social-icons ul {
+    list-style-type: none;
+}
+
+.social-icons img {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.frame {
+    padding: 0.85rem;
+    margin-bottom: 0.5em;
+    background-color: rgba(20, 20, 20, 0.65);
+
+    border-color: rgba(56, 56, 56, 0.5);
+    border-radius: 0.45rem;
+    
+    min-width: 41%;
+}
+
+body {
+    line-height: inherit;
+    height: 90vh;
+
+    background-image: url('/assets/img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Noto Sans';
+}
+
+.content .frame h1 {
+    margin-block-end: 0.25em;
+
+    color: white;
+    text-shadow: 4px 4px #000;
+    font-size: 31.5px;
+
+    font-family: 'Readex Pro';
+}
+
+.projects-list img {
+    height: 126px;
+    width: 126px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    margin-left: 30px;
+}
+
+p {
+    color: white;
+    margin-block-end: 0.2em;
+    text-shadow: 2px 2px #000;
+    font-size: 17px;
+}
