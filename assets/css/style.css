@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -19,51 +16,29 @@
     display: flex;
 }
 
-
 div {
     margin-top: 0.9rem;
 }
 
 #icon {
-    width: 115.2px;
-    height: 115.2px;
+    width: 128px;
+    height: 128px;
 
     border-radius: 13px;
     cursor: wait;
 }
 
-#github {
+
+.social-icons #github {
     margin-left: 10px;
-    height: 67.5px;
+    height: 75px;
 }
 
-#youtube {
-    margin-bottom: -6px;
-    height: 72px;
-    filter: invert();
+.social-icons #youtube  {
+    height: 65px;
 }
 
-#namemc {
-    height: 57.6px;
-}
-
-#discord {
-    margin-bottom: -12px;
-    height: 81px;
-}
-
-#twitter {
-    width: 70px;
-    height: 61.5px;
-}
-
-#mail {
-    height: 67.5px;
-    filter: invert();
-}
-
-#speedrun {
-    height: 58.5px;
+.social-icons #invert {
     filter: invert();
 }
 
@@ -75,6 +50,7 @@ div {
     cursor: pointer;
     margin-top: 10px;
     margin-left: 30px;
+    height: 70px;
 }
 
 .frame {
@@ -88,11 +64,15 @@ div {
     min-width: 41%;
 }
 
+body::before {
+    background-color: #000;
+}
+
 body {
     line-height: inherit;
     height: 90vh;
 
-    background-image: url('/assets/img/background.png');
+    background-image: url('/assets/img/background.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -111,13 +91,15 @@ body {
     font-family: 'Readex Pro';
 }
 
+.projects-list #wayfix {
+    margin-left: 0px;
+}
+
 .projects-list img {
-    height: 126px;
-    width: 126px;
+    height: 128px;
+    width: 128px;
 
     border-radius: 20px;
-
-    cursor: pointer;
 
     margin-left: 30px;
 }

@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="uft-8">
-	<title>NotCoded</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>NotCoded</title>
+
+	<link rel="preload" href="/assets/img/background.webp" as="image">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="/assets/css/style.css">
-	<link rel="icon" href="/assets/img/favicon.png" type="image/x-icon">
-	<script type='text/javascript' src='/assets/script.js'></script>
+	<link rel="icon" href="/assets/img/favicon.webp" type="image/x-icon">
+
+	<!-- Google  -->
+    <meta name="description" content="Hello, welcome to my personal website!">
 
 	<!-- Primary Meta Tags -->
     <meta property="type" content="website" />
 	<meta property="title" content="NotCoded" />
 	<meta property="description" content="Hello, welcome to my personal website!" />
-	<meta property="image" content="https://notcoded.is-a.dev/assets/img/banner.png" />
+	<meta property="image" content="https://notcoded.is-a.dev/assets/img/favicon.png" />
 	<meta property="theme-color" content="#FF8560" data-react-helmet="true" name="theme-color" />
 
 
@@ -23,43 +32,38 @@
 	<meta property="og:url" content="https://notcoded.is-a.dev/" />
 	<meta property="og:title" content="NotCoded" />
 	<meta property="og:description" content="Hello, welcome to my personal website!" />
-	<meta property="og:image" content="https://notcoded.is-a.dev/assets/img/banner.png" />
+	<meta property="og:image" content="https://notcoded.is-a.dev/assets/img/favicon.png" />
 	<meta property="og:theme-color" content="#FF8560" data-react-helmet="true" name="theme-color" />
 
     <!-- Twitter / X -->
-    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:card" content="summary" />
     <meta property="twitter:url" content="https://notcoded.is-a.dev/" />
     <meta property="twitter:title" content="NotCoded" />
     <meta property="twitter:description" content="Hello, welcome to my personal website!" />
-    <meta property="twitter:image" content="https://notcoded.is-a.dev/assets/img/banner.png" />
+    <meta property="twitter:image" content="https://notcoded.is-a.dev/assets/img/favicon.png" />
 </head>
 
 <body>
 	<div class="content">
-		<img src="/assets/img/favicon.png" id="icon" onclick=window.location.href="/old/"
-					alt="pfp">
+		<img src="/assets/img/favicon.webp" id="icon" alt="Profile Picture">
 
 		<div class="frame">
 			<h1>Welcome!</h1>
-			<p>I am NotCoded but you can call me Code, my pronouns are he/him and I am from Austria.</p>
+			<p>I am NotCoded but you can call me Code, my pronouns are any/all and I am from Austria.</p>
 			<p>I like modding games, to add quality of life features to make my experience better.</p>
 		<br>
 		</div>
 
 		<div class="frame">
 			<h1>Projects</h1>
-			<p>These are the projects, that I work on, just click on the icons below to see their source code.</p>
+			<p>These are the projects, that I work on:</p>
 			<br>
 
 			<nav class="projects-list">
-				<img src="/assets/img/projects/deathcommands.png" id="deathcommands"
-					onclick="window.open('https://github.com/not-coded/DeathCommands')" alt="deathcommands">
-				<img src="/assets/img/projects/nqt.png" id="nqt"
-					onclick="window.open('https://github.com/not-coded/NQT')" alt="nqt">
-				<img src="/assets/img/projects/namefabric.png" id="namefabric"
-					onclick="window.open('https://github.com/not-coded/NameFabric')" alt="namefabric">
-				<img src="/assets/img/projects/codelib.png" id="codelib"
-					onclick="window.open('https://github.com/not-coded/codelib')" alt="codelib">
+				<a href="https://modrinth.com/mod/wayfix"><img src="https://cdn.modrinth.com/data/hxIWsdEF/11a8bb4badc214361593ec6d33e29998bcc6ef46.png" crossorigin="anonymous" id="wayfix" alt="WayFix Modrinth Page"></a>
+				<a href="https://modrinth.com/mod/namefabric"><img src="/assets/img/projects/namefabric.webp" alt="NameFabric Modrinth Page"></a>
+				<a href="https://modrinth.com/mod/codelib"><img src="/assets/img/projects/codelib.webp" alt="CodeLib Modrinth Page"></a>
+				<a href="https://modrinth.com/mod/nqt"><img src="/assets/img/projects/nqt.webp" alt="NotCoded's Quality (of life) Tweaks Modrinth Page"></a>
 			</nav>
 			<br>
 		</div>
@@ -71,18 +75,11 @@
 		
 	
 			<nav class="social-icons">
-				<img src="/assets/img/social/github.png" id="github" onclick="window.open('https://github.com/not-coded')"
-					alt="github">
-				<img src="/assets/img/social/discord.png" id="discord"
-					onclick="window.open('https://discord.com/users/620662953347121163')" alt="discord">
-				<img src="/assets/img/social/youtube.png" id="youtube"
-					onclick="window.open('https://www.youtube.com/channel/UCItbfk2X2ASiexdsX7rEv-g')" alt="youtube">
-				<img src="/assets/img/social/twitter.png" id="twitter"
-					onclick="window.open('https://twitter.com/not_coded')" alt="twitter">
-				<img src="/assets/img/social/speedrun.svg" id="speedrun"
-					onclick="window.open('https://speedrun.com/user/NotCoded')" alt="speedrun">
-				<img src="/assets/img/social/namemc.png" id="namemc"
-					onclick="window.open('https://namemc.com/profile/fcbf27a9-535e-466f-ae75-7c7959fba7f0')" alt="namemc">
+				<a href="https://github.com/not-coded"><img src="/assets/img/social/GitHub_Invertocat_Light.svg" id="github" alt="GitHub Profile"></a>
+				<a href="https://discord.com/users/620662953347121163"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/653714c1f22aef3b6921d63d_636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg" crossorigin="anonymous" alt="Discord User Profile"></a>
+				<a href="https://www.youtube.com/channel/UCItbfk2X2ASiexdsX7rEv-g"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_light_icon_%282017%29.svg" id="youtube" crossorigin="anonymous" alt="YouTube Channel"></a>
+				<a href="https://bsky.app/profile/notcoded.bsky.social"><img src="/assets/img/social/bluesky_media_kit_logo.svg" id="invert" alt="BlueSky Profile"></a>
+				<a href="https://speedrun.com/user/NotCoded"><img src="/assets/img/social/speedrun.svg" id="invert" alt="speedrun.com Profile"></a>
 			</nav>
 
 			<br>
